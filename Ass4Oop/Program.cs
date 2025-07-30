@@ -76,6 +76,35 @@
 
     //}
     #endregion
+
+    #region Q3
+    //interface INotificationService
+    //{
+    //    public void SendNotification(string Message ,string Recipient);
+    //}
+    //class EmailNotificationService: INotificationService
+    //{
+    //    public void SendNotification(string Message, string Recipient)
+    //    {
+    //        Console.WriteLine($"Email sent to {Recipient} with message: {Message}");
+    //    }
+    //}
+        
+    //class SmsNotificationService : INotificationService
+    //{
+    //    public void SendNotification(string Message, string Recipient)
+    //    {
+    //        Console.WriteLine($"SMS sent to {Recipient} with message: {Message}");
+    //    }
+    //}
+    //class PushNotificationService: INotificationService
+    //{
+    //    public void SendNotification(string Message, string Recipient)
+    //    {
+    //        Console.WriteLine($"Push sent to {Recipient} with message: {Message}");
+    //    }
+    //}
+    #endregion
     class Program
     {
      
@@ -109,6 +138,15 @@
             //string? role = Console.ReadLine();
             //Console.WriteLine("Authorization Result: ");
             //Console.WriteLine(authService.AuthorizeUser(UserName, role));
+            #endregion
+
+            #region CallQ3
+            //EmailNotificationService s1 = new EmailNotificationService();
+            //s1.SendNotification("Hello Eng.Salma ","Salma");
+            //SmsNotificationService s2 = new SmsNotificationService();
+            //s2.SendNotification("Hello Eng.Karim How are you :D !!", "Karim");
+            //PushNotificationService s3 = new PushNotificationService();
+            //s3.SendNotification("Hello Eng.Hoda ", "Hoda");
             #endregion
         }
     }
