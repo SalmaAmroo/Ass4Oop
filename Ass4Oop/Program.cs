@@ -49,6 +49,33 @@
 
     //}
     #endregion
+
+    #region Q2
+    //interface IAuthenticationService
+    //{
+    //    public bool AuthenticateUser(string UserName, string password);
+    //    public bool AuthorizeUser(string UserName , string Role);
+    //}
+
+    //class BasicAuthenticationService : IAuthenticationService
+    //{
+    //    public bool AuthenticateUser(string UserName, string password)
+    //    {
+    //        if (UserName == "Salma Amro" && password=="Salma_2004")
+    //            return true;
+    //        else            
+    //            return false;
+    //    }
+    //    public bool AuthorizeUser(string UserName, string Role)
+    //    {
+    //        if (UserName == "Salma Amro" && Role == "Admin")
+    //            return true;
+    //        else
+    //            return false;
+    //    }
+
+    //}
+    #endregion
     class Program
     {
      
@@ -64,6 +91,24 @@
             //R1.Length = 6;
             //R1.Width = 12;
             //R1.DisplayShapeInfo();
+            #endregion
+
+            #region CallQ2
+            //IAuthenticationService authService = new BasicAuthenticationService();
+            //Console.WriteLine("Enter UserName and Password to Authenticate:");
+            //Console.Write("UserName: ");
+            //string? userName = Console.ReadLine();
+            //Console.Write("Password: ");
+            //string? password = Console.ReadLine();
+            //Console.WriteLine("Authentication Result: ");
+            //Console.WriteLine(authService.AuthenticateUser(userName, password));
+            //Console.WriteLine("Enter UserName and Role to Authorize:");
+            //Console.Write("UserName: ");
+            //string? UserName = Console.ReadLine();
+            //Console.Write("Role: ");
+            //string? role = Console.ReadLine();
+            //Console.WriteLine("Authorization Result: ");
+            //Console.WriteLine(authService.AuthorizeUser(UserName, role));
             #endregion
         }
     }
